@@ -1,0 +1,3 @@
+[run]
+source = grimRepo
+omit = grimRepo/test*
