@@ -1,35 +1,82 @@
-.header {
-    color: orange ;
-    background-color: black ;
-    margin-bottom: 0 ;
-    text-align: center ;
-    width: 100% ;
-    /* # height:  */
-}
-html, body {
-    margin: 0 0 0 0 ;
+html,
+body {
+    margin: 0 0 0 0;
     width: auto;
 }
+
+header {
+    height: 75px;
+}
+
+.toggle-modal {
+    width: 6em;
+    float: left;
+    margin-top: 32px;
+    margin-left: 1em;
+    background-color: red;
+    color: white;
+
+
+}
+
+.modal-header {
+    background-color: black;
+}
+
+.modal-header > h4 {
+    color: orange;
+}
+
+.modal-body > form {
+    display: grid ;
+    justify-content: center;
+}
+
+.modal-footer {
+    background-color: black;
+}
+
+.modal-input {
+    width: 25em !important ;
+}
+
+.add-btn.btn.btn-default {
+    background-color: orange;
+}
+
+.title {
+    color: orange;
+    background-color: black;
+    padding-top: 22px;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
 .movie-list {
-    top: 0 ;
-    display: flex ;
-    flex-wrap: wrap ;
-    justify-content: space-between ;
-    background-color: orange ;
-    width: auto ;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: orange;
+    width: auto;
 }
+
 .img-container {
-    flex: 0 ;
-    padding-top: 1.5em ;
-    height: 20em ;
-    padding-left: 1.5em ;
-    padding-right: 1.5em ;
+    flex: 0;
+    padding-top: 1.5em;
+    height: 20em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
-img{
-    height: 16em ;
-    width: 10em ;
+
+img {
+    height: 16em;
+    width: 10em;
 }
+
 p {
-    text-align: center ;
+    text-align: center;
 }
-  
