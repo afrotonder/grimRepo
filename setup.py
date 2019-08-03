@@ -14,6 +14,7 @@ requires = [
     'pyramid_jinja2',
     'pyramid_debugtoolbar',
     'waitress',
+    # 'bcrypt', # for auth purposes
     'alembic',
     'pyramid_retry',
     'pyramid_tm',
